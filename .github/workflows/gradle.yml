@@ -23,7 +23,7 @@ jobs:
         shell: bash
 
       - name: Build with Gradle
-        run: ./unanismousbacks/gradlew build
+        run: ./unanimousbacks/gradlew build
         shell: bash
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
