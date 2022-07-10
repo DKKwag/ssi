@@ -20,12 +20,12 @@ jobs:
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
-        working-directory: unanimousbakcs
+        working-directory: ./unanimousbacks
         shell: bash
 
       - name: Build with Gradle
         run: ./gradlew build
-        working-directory: unanimousbakcs
+        working-directory: ./unanimousbacks
         shell: bash
         
       - name: Configure AWS credentials
