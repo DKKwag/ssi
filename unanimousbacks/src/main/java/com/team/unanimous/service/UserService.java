@@ -148,7 +148,7 @@ public class UserService {
         if(file.isEmpty()){
             User user = userRepository.findById(userId).orElseThrow(IllegalAccessError::new);
             defaultfilename = "snape.jpg";
-            defaultimage = "https://s3unanimous.s3.ap-northeast-2.amazonaws.com/snape.jpg";
+            defaultimage = "https://s3-unanimous.s3.ap-northeast-2.amazonaws.com/snape.jpg";
             ImageDto imageDto = new ImageDto(defaultimage, defaultfilename);
             Image image = new Image(imageDto);
             imageRepository.save(image);
