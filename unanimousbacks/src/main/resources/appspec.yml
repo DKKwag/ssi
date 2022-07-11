@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/playground-logging/unanimous
+    destination: /home/ubuntu/unanimous
     overwrite: yes
 
 permissions:
